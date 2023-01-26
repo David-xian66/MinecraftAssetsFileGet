@@ -134,7 +134,7 @@ def downloadFileList(objects):
     
     for items in objects['objects']:  # 将所有文件的名称和哈希值放入数组
         hash = objects['objects'][items]['hash']
-        p = os.path.join(Download_Path,hash,hash)
+        p = os.path.join(Download_Path,hash[:2],hash)
         p_s = os.path.join(Download_Path,hash[:2]) 
         #data_list[ii] = [Download_Path + '\\' + items.replace('/', "\\"),hash]
         data_list[ii] = [p,p_s,hash]
