@@ -3,6 +3,9 @@ name: Update
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
   schedule:
     # 每天6个小时运行一次, https://crontab.guru/
     - cron:  '0 */6 * * *'
