@@ -42,6 +42,7 @@ jobs:
     - name: Commit
       id: commit
       run: |
+        git init
         git config --global user.email xianyongjian080402@126.com
         git config --global user.name xianyongjian080402-Bot
         git add .
