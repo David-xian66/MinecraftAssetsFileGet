@@ -140,11 +140,10 @@ def downloadFileList(objects):
         data_list[ii] = [p,p_s,hash]
         global size
         size += objects['objects'][items]['size']
-        #print(data_list)
-        
+        ii += 1
     #print(data_list)
     
-    r = threadpool.makeRequests(downloadFile,data_list,callback) # 创建任务
+    r = threadpool.makeRequests(downloadFile, data_list, callback) # 创建任务
     [pool.putRequest(req) for req in r] # 加入任务
     pool.wait()
     del pool,r
