@@ -60,4 +60,6 @@ jobs:
         replacesArtifacts: true
         tag: BuildRelease
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: [FileZip/*,ShaAndPath.json]
+        artifacts:
+          - FileZip/*
+          - ShaAndPath.json
