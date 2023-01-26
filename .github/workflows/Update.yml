@@ -34,11 +34,9 @@ jobs:
     - name: Commit
       id: commit
       run: |
-        git lfs install
         git config --global user.email xianyongjian080402@126.com
         git config --global user.name xianyongjian080402-Bot
-        #git add .
-        git add .gitattributes
+        git add .
         git commit -m "[Bot]-[Update ZipFile]"
       continue-on-error: true
     - name: Push changes
@@ -46,3 +44,17 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
+    - name: Uses download-artifact to download
+      uses: actions/download-artifact@v3.0.2
+      with:
+        name: outputs
+        path: FileZip/
+    - name: Upload artifact to release
+      uses: ncipollo/release-action@v1.12.0
+      with:
+        name: Spigot_All_Version_Release
+        allowUpdates: true
+        replacesArtifacts: true
+        tag: BuildRelease
+        token: ${{ secrets.GITHUB_TOKEN }}
+        artifacts: [FileZip/*,ShaAndPath.json]
