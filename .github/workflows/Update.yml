@@ -91,6 +91,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.BOTTOKEN }}
+      continue-on-error: true
 
     - name: Upload artifact to release
       uses: ncipollo/release-action@v1.12.0
