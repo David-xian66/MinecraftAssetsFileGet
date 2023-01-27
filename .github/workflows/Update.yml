@@ -24,41 +24,72 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
+
     - name: 安装依赖库
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+
     - name: 检查版本
       run: |
         pip list
+
     - name: Update
       run: |
         python 'main.py'
+
+    - name: Ls
+      run: ls
+
+    - name: Upload artifact(All_File)
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: File_All
+        path: ./
+    
+    - name: Upload artifact(ZipFile)
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: ZipFile
+        path: FileZip
+    
+    - name: Upload artifact(Json)
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: Json
+        path: ShaAndPath
 
   GitPushAndRelease:
     needs: build
     runs-on: ubuntu-latest
     steps:
+    #- name: Make Dir FileZip
+    #  run: mkdir FileZip
+    
+    - name: Uses download-artifact to download
+      uses: actions/download-artifact@v3.0.2
+      with:
+        name: File_All
+        path: ./
+
+    - name: Ls
+      run: ls
+
     - name: Commit
       id: commit
       run: |
-        git init
         git config --global user.email xianyongjian080402@126.com
         git config --global user.name xianyongjian080402-Bot
         git status
         git add .
         git commit -m "[Bot]-[Update ZipFile]"
       continue-on-error: true
+      
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Uses download-artifact to download
-      uses: actions/download-artifact@v3.0.2
-      with:
-        name: outputs
-        path: FileZip/
     - name: Upload artifact to release
       uses: ncipollo/release-action@v1.12.0
       with:
