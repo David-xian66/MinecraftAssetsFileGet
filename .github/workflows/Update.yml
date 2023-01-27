@@ -62,6 +62,8 @@ jobs:
   GitPushAndRelease:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: Update
     steps:
     #- name: Make Dir FileZip
     #  run: mkdir FileZip
