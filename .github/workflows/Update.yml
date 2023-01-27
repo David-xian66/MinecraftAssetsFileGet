@@ -45,6 +45,7 @@ jobs:
         git init
         git config --global user.email xianyongjian080402@126.com
         git config --global user.name xianyongjian080402-Bot
+        git status
         git add .
         git commit -m "[Bot]-[Update ZipFile]"
       continue-on-error: true
