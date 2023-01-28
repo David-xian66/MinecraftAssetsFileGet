@@ -93,8 +93,7 @@ jobs:
       id: commit
       run: |
         git config --global user.email xianyongjian080402@126.com
-        git config --global user.name xianyongjian080402-Bot
-        git status
+        git config --global user.name xianyongjian08040202
         git add .
         git commit -m "[Bot]-[Update ZipFile]"
       continue-on-error: true
