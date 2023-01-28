@@ -90,7 +90,7 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.BOTTOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
       continue-on-error: true
 
     - name: Upload artifact to release
