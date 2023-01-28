@@ -10,6 +10,8 @@ on:
     # 每天6个小时运行一次, https://crontab.guru/
     - cron:  '0 */6 * * *'
 
+permissions: write-all
+
 jobs:
   build:
     runs-on: ubuntu-latest
