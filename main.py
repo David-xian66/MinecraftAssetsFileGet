@@ -115,7 +115,7 @@ def downloadFile(z):
         
         if Sha1(downloadPath) == sha1:
             # print("校验通过")
-            print('下载完成 ' + downloadPath)
+            #print('下载完成 ' + downloadPath)
             break
         else:
             print("检验失败, 重新下载"+str([sha1,downloadPath,fileUrl]))
@@ -173,7 +173,7 @@ def ErrorStop():
 if __name__ == '__main__':
     File_Download_Path = os.path.join('')  # 下载路径
     File_Zip_Path = os.path.join('FileZip')  # 压缩路径
-    n_threads = 120  # 开设线程数
+    n_threads = 200  # 开设线程数
 
     url = "https://piston-meta.mojang.com/mc/game/version_manifest.json"
     Download_Path = os.path.join(File_Download_Path,'objects')
