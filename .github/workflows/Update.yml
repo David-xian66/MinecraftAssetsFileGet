@@ -47,17 +47,29 @@ jobs:
         name: File_All
         path: ./
     
-    - name: Upload artifact(ZipFile)
-      uses: actions/upload-artifact@v3.1.2
-      with:
-        name: ZipFile
-        path: FileZip
-    
     - name: Upload artifact(Json)
       uses: actions/upload-artifact@v3.1.2
       with:
         name: Json
         path: ShaAndPath
+
+  UploadArtifact-ZipFile:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: Update
+    steps:
+    - name: Uses download-artifact to download
+      uses: actions/download-artifact@v3.0.2
+      with:
+        name: File_All
+        path: ./
+
+    - name: Upload artifact(ZipFile)
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: ZipFile
+        path: FileZip
 
   GitPushAndRelease:
     needs: build
