@@ -104,7 +104,7 @@ jobs:
       id: Push
       run: |
         git remote remove origin
-        git remote add origin https://${{ secrets.BOTTOKEN }}@github.com/SkyWorldStudio/MinecraftAssetsFileGet
+        git remote add origin https://xianyongjian08040202:${{ secrets.BOTTOKEN }}@github.com/SkyWorldStudio/MinecraftAssetsFileGet
         git push -u origin main
     #  uses: ad-m/github-push-action@master
     #  with:
