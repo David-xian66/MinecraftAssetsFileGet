@@ -101,10 +101,19 @@ jobs:
       continue-on-error: true
       
     - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.BOTTOKEN }}
-      continue-on-error: true
+      id: Push
+      run: |
+        git remote remove origin
+        git remote add origin https://${{ secrets.BOTTOKEN }}@github.com/SkyWorldStudio/MinecraftAssetsFileGet
+        git push -u origin main
+    #  uses: ad-m/github-push-action@master
+    #  with:
+    #    github_token: ${{ secrets.GITHUB_TOKEN }}
+    #  continue-on-error: true
+      #uses: ad-m/github-push-action@master
+      #with:
+      #  github_token: ${{ secrets.BOTTOKEN }}
+      #continue-on-error: true
 
     - name: Upload artifact to release
       uses: ncipollo/release-action@v1.12.0
