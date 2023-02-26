@@ -101,12 +101,6 @@ jobs:
       continue-on-error: true
       
     - name: Push changes
-      id: Push
-      run: |
-        git remote remove origin
-        git remote add origin https://xianyongjian08040202:${{ secrets.BOTTOKEN }}@github.com/SkyWorldStudio/MinecraftAssetsFileGet
-        git push -u origin main
-    - name: Push changes
       uses: actions/checkout@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
