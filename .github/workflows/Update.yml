@@ -103,7 +103,7 @@ jobs:
     - name: Push changes
       uses: actions/checkout@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.BOTTOKEN }}
       continue-on-error: true
 
     - name: Upload artifact to release
