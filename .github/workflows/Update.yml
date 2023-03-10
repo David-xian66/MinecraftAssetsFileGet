@@ -102,12 +102,14 @@ jobs:
         git config --global user.name xianyongjian08040202
         git add .
         git commit -m "[Bot]-[Update ZipFile]"
+      continue-on-error: true
 
     - name: Push the change
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.BOTTOKEN }}
         branch: ${{ github.head_ref }}
+      continue-on-error: true
 
     - name: Upload artifact to release
       uses: ncipollo/release-action@v1.12.0
