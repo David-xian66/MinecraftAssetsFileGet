@@ -1,102 +1,102 @@
 {
     "FileZip/1.10.zip": {
         "Path": "FileZip/1.10.zip",
-        "Sha1": "04bd0592206b6534f6f4e9b71f6b847cc0d98204",
+        "Sha1": "78c17767f16775a11514582dc42ada20d036f203",
         "URL": "https://launchermeta.mojang.com/v1/packages/1899dc341679632a513470aeb3daf6d8bd154550/1.10.json"
     },
     "FileZip/1.11.zip": {
         "Path": "FileZip/1.11.zip",
-        "Sha1": "58350674a43a906d93820d51e7385204253ed230",
+        "Sha1": "be250ac43a45398b5ef9b40d9d7a1f8fd0cac5b3",
         "URL": "https://launchermeta.mojang.com/v1/packages/4fa7f939c7e9902e6c674ad1d00358f8c08d7b8e/1.11.json"
     },
     "FileZip/1.12.zip": {
         "Path": "FileZip/1.12.zip",
-        "Sha1": "310847e23d34261ff445b2f7b39b1e75a3fbb3aa",
+        "Sha1": "c5d4a4f3f53bace273cf5d099194135920216ac6",
         "URL": "https://launchermeta.mojang.com/v1/packages/1584b57c1a0b5e593fad1f5b8f78536ca640547b/1.12.json"
     },
     "FileZip/1.13.1.zip": {
         "Path": "FileZip/1.13.1.zip",
-        "Sha1": "8d2e7c0d6b5959b7ea5209ae0b4047ec350ceb1f",
+        "Sha1": "6d6d71e292c49a38eadce3c7b174c86b70e6d3e3",
         "URL": "https://launchermeta.mojang.com/v1/packages/6d78d53da5ac7158e2f725056312edf9871dfbb1/1.13.1.json"
     },
     "FileZip/1.13.zip": {
         "Path": "FileZip/1.13.zip",
-        "Sha1": "623f2fee289e405a9bbc71094e7b14f5bcf1e55f",
+        "Sha1": "8ab12a92cc999005517dc109b07e67a9b7d71ab3",
         "URL": "https://launchermeta.mojang.com/v1/packages/23981354446ddc141dcf03cc4bfa6b2a9492aa90/1.13.json"
     },
     "FileZip/1.14.zip": {
         "Path": "FileZip/1.14.zip",
-        "Sha1": "6c73335525abc2069569cb6b2dba70995bd55873",
+        "Sha1": "2b27d613e1e758956ed889b5cd1e84b68130adf1",
         "URL": "https://launchermeta.mojang.com/v1/packages/d6c94fad4f7a03a8e46083c023926515fc0e551e/1.14.json"
     },
     "FileZip/1.15.zip": {
         "Path": "FileZip/1.15.zip",
-        "Sha1": "1614f5fb3e8bdc6c63a20ca53f16a23d9c5d7311",
+        "Sha1": "f89850416213e38ce6475c80621f7073fcc54ad2",
         "URL": "https://launchermeta.mojang.com/v1/packages/3b41ad81220d2f21ff5b343629de725047dac13d/1.15.json"
     },
     "FileZip/1.16.zip": {
         "Path": "FileZip/1.16.zip",
-        "Sha1": "1745ea67c31c90fed25cfcf4dbe2ab50b80dca66",
+        "Sha1": "1fd7328da972870b8aedf8d90561828149ced403",
         "URL": "https://launchermeta.mojang.com/v1/packages/28680197f74e5e1d55054f6a63509c8298d428f9/1.16.json"
     },
     "FileZip/1.17.zip": {
         "Path": "FileZip/1.17.zip",
-        "Sha1": "44cd89828b2535811e58fc8d28e6b310a633cd26",
+        "Sha1": "c46fcb8879c617f4eba1f12f52075facb5a67737",
         "URL": "https://launchermeta.mojang.com/v1/packages/368e1f53d7b7c96c9a882e170ae6c4356da97bcf/1.17.json"
     },
     "FileZip/1.18.zip": {
         "Path": "FileZip/1.18.zip",
-        "Sha1": "56cd68b6ff9110e69a3cf99d7151fc47ba519b8a",
+        "Sha1": "7927201654c0054def272552c109e5d6a94e520e",
         "URL": "https://piston-meta.mojang.com/v1/packages/92aa15a18127b6f9e3f0e5a7d018be7ebb389703/1.18.json"
     },
     "FileZip/1.19.zip": {
         "Path": "FileZip/1.19.zip",
-        "Sha1": "1090db3461ab92b557bc597b25c5b20344b9fef7",
+        "Sha1": "50f5012cbf67544081256e3a4f33a3a63bda794d",
         "URL": "https://piston-meta.mojang.com/v1/packages/f7033757bcb91e11d79f0f31330d680cc787631f/1.19.json"
     },
     "FileZip/1.7.10.zip": {
         "Path": "FileZip/1.7.10.zip",
-        "Sha1": "84cd644bcbaab5ca3ea8c368d2c0f79cb9acaffb",
+        "Sha1": "b3f1e9f6f1a51a830727139948d052887f6f75f6",
         "URL": "https://launchermeta.mojang.com/v1/packages/1863782e33ce7b584fc45b037325a1964e095d3e/1.7.10.json"
     },
     "FileZip/1.7.3.zip": {
         "Path": "FileZip/1.7.3.zip",
-        "Sha1": "5ca80876b57e0cbb2b55779c5fceca31a5f957e2",
+        "Sha1": "4c32575ae38ffdd8c916904e5222d0deb6d96164",
         "URL": "https://launchermeta.mojang.com/v1/packages/f6cf726f4747128d13887010c2cbc44ba83504d9/1.7.3.json"
     },
     "FileZip/1.7.4.zip": {
         "Path": "FileZip/1.7.4.zip",
-        "Sha1": "f9d869014d46b9ec12608f004ce3047675366e3e",
+        "Sha1": "a5fbbcb39ba813262fc875794a5fe5b6b22755ee",
         "URL": "https://launchermeta.mojang.com/v1/packages/545510a60f526b9aa8a38f9c0bc7a74235d21675/1.7.4.json"
     },
     "FileZip/1.8.zip": {
         "Path": "FileZip/1.8.zip",
-        "Sha1": "92eb38706b6b48deb23d320b12dc7028777028fe",
+        "Sha1": "103894a5ebbe789efd0e6dbfc7299d63377ce063",
         "URL": "https://launchermeta.mojang.com/v1/packages/f6ad102bcaa53b1a58358f16e376d548d44933ec/1.8.json"
     },
     "FileZip/1.9.zip": {
         "Path": "FileZip/1.9.zip",
-        "Sha1": "41a1aea6cd5de73488df6592d53eaa471581d92b",
+        "Sha1": "e099fae3af65ab8c4abe5befa55e2563af22fde9",
         "URL": "https://launchermeta.mojang.com/v1/packages/06cc9a2c5ce504dc712ea2f699e4d645c48416dd/1.9.json"
     },
     "FileZip/2.zip": {
         "Path": "FileZip/2.zip",
-        "Sha1": "7da33aa6208cbadf67a17dfa623ca43777ee8357",
+        "Sha1": "e7bac7a787820f67f4a3b0aa9a5b94188210456e",
         "URL": "https://piston-meta.mojang.com/v1/packages/60582f49bddee34d393eb05c5eb15c4c0c3f4fb9/2.json"
     },
     "FileZip/3.zip": {
         "Path": "FileZip/3.zip",
-        "Sha1": "e59e1a6d2ec2adc4b43f6c3413ae22fc29c9dd35",
+        "Sha1": "e608f5366192310e0ec53790511c2dbe62a57248",
         "URL": "https://piston-meta.mojang.com/v1/packages/50022b5d86a5ddfa8b53712abd05aad9f9039503/3.json"
     },
     "FileZip/legacy.zip": {
         "Path": "FileZip/legacy.zip",
-        "Sha1": "a5724c4ef65ea28de200f3536fe7106150d3ecb6",
+        "Sha1": "ca21ab34bde1d8953d0ae75b1ef0231f1d5e663f",
         "URL": "https://launchermeta.mojang.com/v1/packages/770572e819335b6c0a053f8378ad88eda189fc14/legacy.json"
     },
     "FileZip/pre-1.6.zip": {
         "Path": "FileZip/pre-1.6.zip",
-        "Sha1": "06142388a2f72b01d3390f3e22f48edda421bc19",
+        "Sha1": "6b702d62ffb5954c2c0dc3d177654ce3b13eda5e",
         "URL": "https://launchermeta.mojang.com/v1/packages/3d8e55480977e32acd9844e545177e69a52f594b/pre-1.6.json"
     }
 }
